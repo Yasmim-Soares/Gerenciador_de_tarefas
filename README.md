@@ -1,5 +1,7 @@
 # 📝 Gerenciador de Tarefas com Anexos
 
+> **⚠️ ATENÇÃO: Projeto em andamento**
+
 Um aplicativo web simples e eficiente para criação e gerenciamento de tarefas do dia a dia, com suporte para upload de arquivos. Projeto desenvolvido para praticar e aprofundar conhecimentos na integração entre Front-end (HTML/CSS) e Back-end (PHP/MySQL).
 
 ## 🚀 Funcionalidades

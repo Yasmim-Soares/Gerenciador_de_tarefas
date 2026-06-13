@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css"/>
-    <title>Gerenciador de tarefas</title>
+    <title>Task Manager</title>
 </head>
 <body>
-    <h1>Crie/Gerencie suas tarefas:</h1>
-    <form action="cadastrar-tarefa.php" method="POST" enctype="multipart/form-data">
-        <div class="container-tarefas">
-            <div class="input-adicionar">
-                <input type="text" id="nova-tarefa" name="titulo_tarefa" placeholder="Adicionar nova tarefa">
-                <input type="file" id="arquivo" name="arquivo">
-                <button id="btn-adicionar" type="submit">Adicionar</button>
+    <h1>Create/Manage your tasks:</h1>
+    <form action="manageTasks.php" method="POST" enctype="multipart/form-data">
+        <div class="containerTasks">
+            <div class="inputAdd">
+                <input type="text" id="newTasks" name="titleTask" placeholder="Add task">
+                <input type="file" id="archive" name="archive">
+                <button id="btn-add" type="submit">Add</button>
             </div>
-            <ul id="listar">
+            <ul id="list">
             </ul>
         </div>
     </form>

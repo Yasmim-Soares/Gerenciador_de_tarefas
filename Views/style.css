@@ -13,7 +13,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-.container-tarefas {
+.containerTasks {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 15px;
@@ -22,14 +22,13 @@ h1 {
     max-width: 700px; 
 }
 
-.input-adicionar {
+.inputAdd {
     display: flex;
     gap: 10px; 
     margin-bottom: 20px;
 }
 
-
-#nova-tarefa {
+#newTasks {
     flex: 1; 
     padding: 10px;
     border: 1px solid #ccc;
@@ -38,11 +37,11 @@ h1 {
     outline: none;
 }
 
-#nova-tarefa:focus {
+#newTasks:focus {
     border-color: #5cb85c; 
 }
 
-#arquivo {
+#archive {
     display: block;
     padding: 10px;
     border: 1px solid #ccc;
@@ -52,8 +51,7 @@ h1 {
     border-color:#5cb85c;
 }
 
-
-#btn-adicionar {
+#btn-add {
     padding: 10px 20px;
     background-color: #5cb85c;
     color: white;
@@ -64,17 +62,17 @@ h1 {
     transition: background-color 0.2s;
 }
 
-#btn-adicionar:hover {
+#btn-add:hover {
     background-color: #4cae4c; 
 }
 
-#listar {
+#list {
     list-style-type: none; 
     padding: 0;
     margin: 0;
 }
 
-#listar li {
+#list li {
     padding: 12px;
     background-color: #f9f9f9;
     border: 1px solid #eee;
@@ -85,3 +83,4 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+

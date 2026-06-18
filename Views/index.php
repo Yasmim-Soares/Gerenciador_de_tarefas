@@ -13,6 +13,12 @@
             <div class="inputAdd">
                 <input type="text" id="newTasks" name="titleTask" placeholder="Add task">
                 <input type="file" id="archive" name="archive">
+                <label nome="status">Status</label>
+                <select name="status_tarefa" id="status_tarefa">
+                    <option value="AIniciar">A iniciar</option>
+                    <option value="EmAndamento">Em andamento</option>
+                    <option value="Finalizado">Finalizado</option>
+                </select>
                 <button id="btn-add" type="submit">Add</button>
             </div>
             <ul id="list">

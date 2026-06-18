@@ -25,5 +25,30 @@
             </ul>
         </div>
     </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('form').on('submit', function(e){
+                e.preventDefault();
+
+                var formData = new FormData(this);
+
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(resposta) {
+                        alert("Tarefa adicionada!");
+                    },
+                    error: function(){
+                        alert("Ocorreu um erro ao enviar os dados.");
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>

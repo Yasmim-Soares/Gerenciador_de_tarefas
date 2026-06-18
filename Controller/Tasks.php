@@ -1,6 +1,7 @@
 <?php
 require_once '../model/conexao.php';
-class Tarefas{
+
+class Tasks{
     private $mysqli;
 
     public function __construct($conexaoBanco) {

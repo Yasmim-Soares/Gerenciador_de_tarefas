@@ -8,6 +8,12 @@ class Tasks{
         $this->mysqli = $conexaoBanco;
     }
 
-    public 
+    public function insertTask($task, $file) {
+        $sql_tarefa = "INSERT INTO tarefas(descricao, status_tarefa) VALUES (?, ?)";
+        $stmt = $this->mysqli->prepare($m);
+
+        $descricao =  $task['tittleTask'];
+        $status =  $task['status_tarefa'];
+    }
 }
 ?>

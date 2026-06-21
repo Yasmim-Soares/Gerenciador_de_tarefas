@@ -1,0 +1,36 @@
+<?php
+
+class AnexoModel {
+    private $anexoPk;
+    private $nome;
+    private $caminho;
+    private $tarefasFk;
+
+    function getAnexoPk(){
+        return $this->getAnexoPk;
+    }
+
+    function getNome(){
+        return $this->nome;
+    }
+
+    function getCaminho(){
+        return $this->caminho;
+    }
+
+    function getTarefasFk(){
+        return $this->tarefasFk;
+    }
+
+    function setNome($nome){
+        $this->nome = $nome;
+    }
+
+    function setCaminho($caminho){
+        $this->caminho = $caminho;
+    }
+
+    function setTarefasFk($tarefasFk){
+        $this->tarefasFk = $tarefasFk;
+    }
+}
